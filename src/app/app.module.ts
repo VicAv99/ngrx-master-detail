@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MaterialModule } from './material.module';
 
 // NGRX
 import { CoreModule } from './core/core.module';
@@ -20,7 +21,8 @@ import { DetailsComponent } from './products/details/details.component';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    CoreModule
+    CoreModule,
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]
