@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { HttpClientModule } from '@angular/common/http';
 import { MaterialModule } from './material.module';
 
 // NGRX
@@ -21,6 +22,7 @@ import { DetailsComponent } from './products/details/details.component';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
+    HttpClientModule,
     CoreModule,
     MaterialModule
   ],
