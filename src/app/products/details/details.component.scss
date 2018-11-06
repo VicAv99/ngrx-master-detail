@@ -1,0 +1,15 @@
+#details-component {
+  margin-top: 20px;
+  mat-card-content {
+    padding-left: 10px;
+    padding-right: 10px;
+    mat-form-field {
+      width: 100%;
+    }
+  }
+  mat-card-actions {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 15px;
+  }
+}

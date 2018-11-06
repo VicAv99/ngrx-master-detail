@@ -1,3 +1,11 @@
-<p>
-  list works!
-</p>
+<mat-card id="list-component">
+  <mat-list>
+    <h3 mat-subheader>NgRx Products</h3>
+    <mat-list-item *ngFor="let prod of products" class="mat-list-option">
+      <span mat-line>{{prod.productName}} - {{prod.price | currency}}</span>
+      <span mat-line>Type: {{prod.category}} - Code: {{prod.productCode}}</span>
+      <span mat-line>Rating: {{prod.rating}}</span>
+      <mat-icon class="mat-pseudo-checkbox">clear</mat-icon>
+    </mat-list-item>
+  </mat-list>
+</mat-card>

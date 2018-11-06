@@ -1,0 +1,8 @@
+.wrapper {
+  > .list-grid {
+    grid-column: 2 / 7;
+  }
+  > .details-grid {
+    grid-column: 7 / 12;
+  }
+}
