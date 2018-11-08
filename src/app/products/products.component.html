@@ -4,7 +4,9 @@
   </div>
 
   <div class="details-grid">
-    <app-details></app-details>
+    <app-details [group]="form"
+                (saved)="saveProduct($event)">
+    </app-details>
   </div>
 </div>
 
